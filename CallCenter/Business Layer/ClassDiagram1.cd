@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CallCenter.Business">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Business.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Call">
+    <Position X="5.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkIAACIAAACAAAAgAKAAAEAAAAACAAAAIgAAAAA=</HashCode>
+      <FileName>Business Layer\Call.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CallCenter.Call_Assistant" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAEACAAAAAAAAAABAAQAAAA=</HashCode>
+      <FileName>Business Layer\Call_Assistant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Client">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAgABAAAAAAAAAAAAAAAAAAAAAAACAAEAA=</HashCode>
+      <FileName>Business Layer\Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Contract" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACIAAAAAAAAICAAACAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Contract.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Department" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.form_startCall" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAACCQAAASAAAAAAAAASQAAAAEAAA=</HashCode>
+      <FileName>Presentation\form_StartCall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Individual">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Individual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Package" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Package.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Person">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAgAAAAAAAAIAAAAAgAAAAAAAAAICAAAAgA=</HashCode>
+      <FileName>Business Layer\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Program" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Business Layer\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Report">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Service" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Business Layer\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Staff_Member">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Staff_Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Technition">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Business Layer\Technition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Timestamp" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Timestamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Work_Request" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Work_Request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Properties.Resources" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Properties.Settings" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.DataHandler" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAMQAAAIAAhAAoSAAAAAAAUQQAAAAAEQBAAgBAAA=</HashCode>
+      <FileName>DataAccess\DataHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Business_Layer.Packages" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAACAAAAABAAAAAQAAAgAAAAIAAAAAA=</HashCode>
+      <FileName>Business Layer\Packages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Business_Layer.Services" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\Services.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.BusinessClient" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAIAACAAAoAEAAGAgAhCAAAAAAAAAACAAAACAAA=</HashCode>
+      <FileName>Presentation\BusinessClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.ClientInformationForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presentation\ClientInformationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.ContractSelection" Collapsed="true">
+    <Position X="15.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAAAAAAACAAAACABgAAAAAAACAAAAABAA=</HashCode>
+      <FileName>Presentation\ContractSelection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.EmployeeInformationForm" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presentation\EmployeeInformationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.form_callAnswer" Collapsed="true">
+    <Position X="2.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIAECECwBACAAKAAEASAMgYAAAAAEAAgAAEAAA=</HashCode>
+      <FileName>Presentation\form_CallAnswer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.InsertEmployee" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presentation\InsertEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.InsertNewClient" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAGACCAAAAgAABCIANACAAAMAAAAAAAAEAAABAA=</HashCode>
+      <FileName>Presentation\InsertNewClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CallCenter.Presentation.ReportForm" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Presentation\ReportForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CallCenter.CalIinterface" Collapsed="true">
+    <Position X="2.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business Layer\CalIinterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,38 @@
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\bin\Debug\CallCenter.exe.config
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\bin\Debug\CallCenter.exe
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\bin\Debug\CallCenter.pdb
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\bin\Debug\MetroFramework.dll
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.BusinessClient.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ContractSelection.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.form_callAnswer.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ClientInformationForm.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.form_startCall.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.InsertEmployee.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.InsertNewClient.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Properties.Resources.resources
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.csproj.GenerateResource.Cache
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.exe
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.pdb
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.csprojResolveAssemblyReference.cache
+C:\Users\TeezyT\Documents\Visual Studio 2012\Projects\BC\SEN321\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ServiceMaintance.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\bin\Debug\CallCenter.exe.config
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.exe
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.pdb
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\bin\Debug\CallCenter.exe
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\bin\Debug\CallCenter.pdb
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\bin\Debug\MetroFramework.dll
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.csprojResolveAssemblyReference.cache
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.BusinessClient.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ContractSelection.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.form_callAnswer.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ClientInformationForm.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.form_startCall.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.from_View_Employees.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.InsertEmployee.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.InsertNewClient.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ReportForm.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Presentation.ServiceMaintance.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.Properties.Resources.resources
+C:\Users\TeezyT\OneDrive\Documents\BC\3rd Year\SEN\CallCenter\CallCenter\obj\Debug\CallCenter.csproj.GenerateResource.Cache

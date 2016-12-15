@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B2B7FE3-4631-42AE-B4D6-AFAEB9A7C9F3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CallCenter</RootNamespace>
+    <AssemblyName>CallCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroFramework.RunTime.1.2.0.3\lib\net40-Client\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroFramework.Design.1.2.0.3\lib\net40\MetroFramework.Design.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.2.0.3, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\MetroFramework.Fonts.1.2.0.3\lib\net40\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Business Layer\Business.cs" />
+    <Compile Include="Business Layer\CalIinterface.cs" />
+    <Compile Include="Business Layer\Call.cs" />
+    <Compile Include="Business Layer\Call_Assistant.cs" />
+    <Compile Include="Business Layer\Client.cs" />
+    <Compile Include="Business Layer\Contract.cs" />
+    <Compile Include="Business Layer\Issues.cs" />
+    <Compile Include="Business Layer\Packages.cs" />
+    <Compile Include="Business Layer\Services.cs" />
+    <Compile Include="DataAccess\DataHandler.cs" />
+    <Compile Include="Business Layer\Department.cs" />
+    <Compile Include="Presentation\BusinessClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\BusinessClient.Designer.cs">
+      <DependentUpon>BusinessClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ContractSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ContractSelection.Designer.cs">
+      <DependentUpon>ContractSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\form_CallAnswer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\form_CallAnswer.Designer.cs">
+      <DependentUpon>form_CallAnswer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ClientInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ClientInformationForm.Designer.cs">
+      <DependentUpon>ClientInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\EmployeeInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\EmployeeInformationForm.Designer.cs">
+      <DependentUpon>EmployeeInformationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\form_StartCall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\form_StartCall.Designer.cs">
+      <DependentUpon>form_StartCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Business Layer\Individual.cs" />
+    <Compile Include="Business Layer\Package.cs" />
+    <Compile Include="Business Layer\Person.cs" />
+    <Compile Include="Business Layer\Program.cs" />
+    <Compile Include="Presentation\from_View_Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\from_View_Employees.Designer.cs">
+      <DependentUpon>from_View_Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\InsertEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\InsertEmployee.Designer.cs">
+      <DependentUpon>InsertEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\InsertNewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\InsertNewClient.Designer.cs">
+      <DependentUpon>InsertNewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ReportForm.Designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation\ServiceMaintance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation\ServiceMaintance.Designer.cs">
+      <DependentUpon>ServiceMaintance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Business Layer\Report.cs" />
+    <Compile Include="Business Layer\Service.cs" />
+    <Compile Include="Business Layer\Staff_Member.cs" />
+    <Compile Include="Business Layer\Technition.cs" />
+    <Compile Include="Business Layer\Timestamp.cs" />
+    <Compile Include="Business Layer\Work_Request.cs" />
+    <EmbeddedResource Include="Presentation\BusinessClient.resx">
+      <DependentUpon>BusinessClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ContractSelection.resx">
+      <DependentUpon>ContractSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\form_CallAnswer.resx">
+      <DependentUpon>form_CallAnswer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ClientInformationForm.resx">
+      <DependentUpon>ClientInformationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\form_StartCall.resx">
+      <DependentUpon>form_StartCall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\from_View_Employees.resx">
+      <DependentUpon>from_View_Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\InsertEmployee.resx">
+      <DependentUpon>InsertEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\InsertNewClient.resx">
+      <DependentUpon>InsertNewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation\ServiceMaintance.resx">
+      <DependentUpon>ServiceMaintance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Business Layer\ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataAccess\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MetroFramework.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
